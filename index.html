@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/responsive.css" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="app">
+      <div class="modal"></div>
+      <div id="sidebar" class="sidebar hide_on_tablet_and_mobile">
+        <div class="sidebar__header">
+          <img
+            class="sidebar__img"
+            src="https://www.w3schools.com/w3images/avatar_g2.jpg"
+            alt=""
+          />
+          <div class="sidebar__header-icon expose_on_tablet_and_mobile">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+        <div class="sidebar__content">
+          <div class="sidebar__heading">PORTFOLIO</div>
+          <div class="sidebar__sub-heading">Template by W3.CSS</div>
+          <div class="sidebar__list sidebar__list--selected">
+            <div class="sidebar__list-logo">
+              <i class="fa-solid fa-window-maximize"></i>
+            </div>
+            <div class="sidebar__list-content">PORTFOLIO</div>
+          </div>
+
+          <div class="sidebar__list">
+            <div class="sidebar__list-logo">
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="sidebar__list-content">ABOUT</div>
+          </div>
+
+          <div class="sidebar__list">
+            <div class="sidebar__list-logo">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="sidebar__list-content">CONTACT</div>
+          </div>
+          <div class="sidebar__social">
+            <i class="sidebar__social-icon fa-brands fa-facebook-square"></i>
+            <i class="sidebar__social-icon fa-brands fa-instagram"></i>
+            <i class="sidebar__social-icon fa-brands fa-snapchat"></i>
+            <i class="sidebar__social-icon fa-brands fa-pinterest"></i>
+            <i class="sidebar__social-icon fa-brands fa-twitter"></i>
+            <i class="sidebar__social-icon fa-brands fa-linkedin"></i>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="content__header-tablet-mobile">
+          <i
+            id="content__header-tablet-mobile-icon"
+            class="content__header-tablet-mobile-icon fa-solid fa-bars"
+          ></i>
+          <img
+            src="https://www.w3schools.com/w3images/avatar_g2.jpg"
+            alt=""
+            class="content__header-tablet-mobile-img"
+          />
+        </div>
+        <div class="content__header content-container">
+          <h1 class="content__heading">My Portfolio</h1>
+          <div class="header__navbar">
+            <h2 class="header__navbar-text">Filter:</h2>
+
+            <div class="header__navbar-content header__navbar-content--active">
+              <button class="header__navbar-button">ALL</button>
+            </div>
+            <div class="header__navbar-content">
+              <i class="fa-regular fa-gem"></i>
+              <button class="header__navbar-button">Design</button>
+            </div>
+            <div class="header__navbar-content hide_on_mobile">
+              <i class="fa-regular fa-image"></i>
+              <button class="header__navbar-button">Photos</button>
+            </div>
+            <div class="header__navbar-content hide_on_mobile">
+              <i class="fa-solid fa-map-pin"></i>
+              <button class="header__navbar-button">Art</button>
+            </div>
+          </div>
+        </div>
+        <div class="content__main content-container">
+          <div class="main__item">
+            <div class="main__img">
+              <img class="main__img-link" src="./img/pic1.jpg" alt="" />
+            </div>
+            <div class="main__data">
+              <h2 class="main__data-heading">Lorem Ipsum</h2>
+              <p class="main__data-sub-heading">
+                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+                condimentum, porta lectus vitae, ultricies congue gravida diam
+                non fringilla.
+              </p>
+            </div>
+          </div>
+
+          <div class="main__item">
+            <div class="main__img">
+              <img class="main__img-link" src="./img/pic2.jpg" alt="" />
+            </div>
+            <div class="main__data">
+              <h2 class="main__data-heading">Lorem Ipsum</h2>
+              <p class="main__data-sub-heading">
+                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+                condimentum, porta lectus vitae, ultricies congue gravida diam
+                non fringilla.
+              </p>
+            </div>
+          </div>
+
+          <div class="main__item">
+            <div class="main__img">
+              <img class="main__img-link" src="./img/pic3.jpg" alt="" />
+            </div>
+            <div class="main__data">
+              <h2 class="main__data-heading">Lorem Ipsum</h2>
+              <p class="main__data-sub-heading">
+                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+                condimentum, porta lectus vitae, ultricies congue gravida diam
+                non fringilla.
+              </p>
+            </div>
+          </div>
+          <div class="main__item">
+            <div class="main__img">
+              <img class="main__img-link" src="./img/pic4.jpg" alt="" />
+            </div>
+            <div class="main__data">
+              <h2 class="main__data-heading">Lorem Ipsum</h2>
+              <p class="main__data-sub-heading">
+                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+                condimentum, porta lectus vitae, ultricies congue gravida diam
+                non fringilla.
+              </p>
+            </div>
+          </div>
+
+          <div class="main__item">
+            <div class="main__img">
+              <img class="main__img-link" src="./img/pic5.jpg" alt="" />
+            </div>
+            <div class="main__data">
+              <h2 class="main__data-heading">Lorem Ipsum</h2>
+              <p class="main__data-sub-heading">
+                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+                condimentum, porta lectus vitae, ultricies congue gravida diam
+                non fringilla.
+              </p>
+            </div>
+          </div>
+
+          <div class="main__item">
+            <div class="main__img">
+              <img class="main__img-link" src="./img/pic6.jpg" alt="" />
+            </div>
+            <div class="main__data">
+              <h2 class="main__data-heading">Lorem Ipsum</h2>
+              <p class="main__data-sub-heading">
+                Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+                condimentum, porta lectus vitae, ultricies congue gravida diam
+                non fringilla.
+              </p>
+            </div>
+          </div>
+        </div>
+        <ul class="content__pagination content-container">
+          <li class="content__pagination-item">
+            <a href="" class="content__pagination-link">
+              <i class="fa-solid fa-angles-left"></i>
+            </a>
+          </li>
+          <li class="content__pagination-item content__pagination-item--active">
+            <a href="" class="content__pagination-link">1</a>
+          </li>
+          <li class="content__pagination-item">
+            <a href="" class="content__pagination-link">2</a>
+          </li>
+          <li class="content__pagination-item">
+            <a href="" class="content__pagination-link">3</a>
+          </li>
+          <li class="content__pagination-item">
+            <a href="" class="content__pagination-link">4</a>
+          </li>
+          <li class="content__pagination-item">
+            <a href="" class="content__pagination-link">
+              <i class="fa-solid fa-angles-right"></i>
+            </a>
+          </li>
+        </ul>
+        <div class="content__img content-container">
+          <img src="./img/img1.jpg" alt="" class="content__img-link" />
+          <img src="./img/img2.jpg" alt="" class="content__img-link" />
+        </div>
+        <div class="content__about content-container">
+          <div class="content__about-text">
+            <h2 class="content__about-heading">About Me</h2>
+            <p class="content__about-sub-heading">
+              Just me, myself and I, exploring the universe of unknownment. I
+              have a heart of love and an interest of lorem ipsum and mauris
+              neque quam blog. I want to share my world with you. Praesent
+              tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta
+              lectus vitae, ultricies congue gravida diam non fringilla.
+              Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+              condimentum, porta lectus vitae, ultricies congue gravida diam non
+              fringilla.
+            </p>
+          </div>
+
+          <ul class="content__about-skills">
+            <h3 class="content__skills-heading">Technical Skills</h3>
+
+            <li class="content__skills-item">
+              <div class="content__skills-text">Photography</div>
+              <div class="content__skills-row">
+                <div class="content__skills-row-item">95%</div>
+              </div>
+            </li>
+
+            <li class="content__skills-item">
+              <div class="content__skills-text">Web Design</div>
+              <div class="content__skills-row">
+                <div class="content__skills-row-item">85%</div>
+              </div>
+            </li>
+
+            <li class="content__skills-item">
+              <div class="content__skills-text">Photoshop</div>
+              <div class="content__skills-row">
+                <div class="content__skills-row-item">80%</div>
+              </div>
+            </li>
+          </ul>
+
+          <button class="content__skills-down">
+            <i class="fa-solid fa-download"></i>
+            Download Resume
+          </button>
+
+          <h2 class="content__about-price">How much I charge</h2>
+          <div class="content__about-subcribe">
+            <div class="content__subcribe">
+              <h3 class="content__subcribe-heading">Basic</h3>
+              <div>Web Design</div>
+              <div>Photography</div>
+              <div>1GB Storage</div>
+              <div>Mail Support</div>
+              <div>
+                <h5 class="price">$10</h5>
+                per month
+              </div>
+              <span class="content__subcribe-signup">
+                <button class="content__subcribe-btn">Sign up</button>
+              </span>
+            </div>
+            <div class="content__subcribe">
+              <h3
+                class="content__subcribe-heading content__subcribe-heading--pro"
+              >
+                Pro
+              </h3>
+              <div>Web Design</div>
+              <div>Photography</div>
+              <div>50GB Storage</div>
+              <div>Endless Support</div>
+              <div>
+                <h5 class="price">$25</h5>
+                per month
+              </div>
+              <span class="content__subcribe-signup">
+                <button class="content__subcribe-btn">Sign up</button>
+              </span>
+            </div>
+            <div class="content__subcribe">
+              <h3 class="content__subcribe-heading">Premium</h3>
+              <div>Web Design</div>
+              <div>Photography</div>
+              <div>unlimited Storage</div>
+              <div>Mail Support</div>
+              <div>
+                <h5 class="price">$25</h5>
+                per month
+              </div>
+              <span class="content__subcribe-signup">
+                <button class="content__subcribe-btn">Sign up</button>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="content__contact">
+          <div class="contact-heading">Contact Me</div>
+          <div class="contact-way">
+            <div class="contact-way-item contact-mail">
+              <i class="contact-icon fa-solid fa-envelope"></i>
+              <h3 class="contact-way-text">email@email.com</h3>
+            </div>
+            <div class="contact-way-item contact-location">
+              <i class="contact-icon fa-solid fa-location-dot"></i>
+              <h3 class="contact-way-text">Chicago, US</h3>
+            </div>
+            <div class="contact-way-item contact-phone">
+              <i class="contact-icon fa-solid fa-phone"></i>
+              <h3 class="contact-way-text">512312311</h3>
+            </div>
+          </div>
+          <form action="" class="contact-form">
+            <label class="contact-form-label">Name</label>
+            <input type="text" class="contact-form-input" />
+            <label class="contact-form-label">Email</label>
+            <input type="text" class="contact-form-input" />
+            <label class="contact-form-label">Message</label>
+            <input type="text" class="contact-form-input" />
+          </form>
+          <button class="contact-form-btn">
+            <i class="contact-form-btn-icon fa-solid fa-paper-plane"></i>
+            <h3 class="contact-form-btn-text">Send Message</h3>
+          </button>
+        </div>
+        <footer class="footer">
+          <div class="footer__text">
+            <div class="footer__text-heading">FOOTER</div>
+            <div class="footer__text-sub-heading">
+              Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+              condimentum, porta lectus vitae, ultricies congue gravida diam non
+              fringilla.
+            </div>
+            <div class="footer__text-end">
+              Powered by
+              <a href="" class="footer__text-link"> w3.css</a>
+            </div>
+          </div>
+          <div class="footer__post">
+            <div class="footer__post-head">BLOG POSTS</div>
+            <div class="footer__post-container">
+              <div class="footer__post-list">
+                <img
+                  src="./img/post1.jpg"
+                  alt=""
+                  class="footer__post-item-img"
+                />
+                <div class="footer__post-item">
+                  <div class="footer__post-item-heading">Lorem</div>
+                  <div class="footer__post-item-sub-heading">
+                    Sed mattis nunc
+                  </div>
+                </div>
+              </div>
+              <div class="footer__post-list">
+                <img
+                  src="./img/post2.jpg"
+                  alt=""
+                  class="footer__post-item-img"
+                />
+                <div class="footer__post-item">
+                  <div class="footer__post-item-heading">Ipsum</div>
+                  <div class="footer__post-item-sub-heading">
+                    Praes tinci sed
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer__tag">
+            <div class="footer__tag-heading">POPULAR TAGS</div>
+            <div class="footer__tag-list">
+              <div class="footer__tag-item footer__tag-item--active">
+                Travel
+              </div>
+              <div class="footer__tag-item">New York</div>
+              <div class="footer__tag-item">London</div>
+              <div class="footer__tag-item">IKEA</div>
+              <div class="footer__tag-item">NORWAY</div>
+              <div class="footer__tag-item">DIY</div>
+              <div class="footer__tag-item">Ideas</div>
+              <div class="footer__tag-item">Baby</div>
+              <div class="footer__tag-item">Family</div>
+              <div class="footer__tag-item">News</div>
+              <div class="footer__tag-item">Clothing</div>
+              <div class="footer__tag-item">Shopping</div>
+              <div class="footer__tag-item">Sports</div>
+              <div class="footer__tag-item">Games</div>
+            </div>
+          </div>
+        </footer>
+
+        <div class="content__ending">
+          <div class="content__ending-text">
+            Powered by
+            <a href="" class="content__ending-link"> w3.css</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./assets/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+/* TABLET AND MOBILE */
+@media (max-width: 1000px) {
+    .hide_on_tablet_and_mobile {
+        display: none;
+    }
+
+    .expose_on_tablet_and_mobile {
+        display: block;
+    }
+    
+    .sidebar {
+        min-width: 300px;
+        animation: headerSideIn linear 0.3s;
+
+    }
+
+    .content {
+        margin-left: 0;
+        /* margin-top: 70px; */
+    }
+
+    .content__header-tablet-mobile {
+        display: flex;
+    }
+
+    @keyframes headerSideIn {
+        from {
+            left: -300px;
+            opacity: 0;
+        }
+        to {
+            left: 0;
+            opacity: 1;
+        }
+    }
+}
+
+/* TABLET */
+@media (min-width: 600px) and (max-width: 1000px) {
+
+}
+
+/* MOBILE */
+@media (max-width: 599px) {
+    .hide_on_mobile {
+        display: none;
+    }
+
+    .content__main,
+    .content__img,
+    .content__about-subcribe,
+    .contact-way,
+    .footer {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+}
